@@ -1,0 +1,28 @@
+{
+	"name": "ttn-cli",
+	"version": "1.0.0",
+	"description": "TTN LoRaWAN nodes management CLI",
+	"main": "ttn-cli.js",
+	"preferGlobal": true,
+	"bin": {
+		"ttn-cli": "src/ttn-cli.js"
+	},
+	"scripts": {
+		"dev": "nodemon -r dotenv/config src/ttn-cli.js"
+	},
+	"author": "MC",
+	"license": "ISC",
+	"dependencies": {
+		"commander": "^2.20.0",
+		"debug": "^4.1.1",
+		"figures": "^3.0.0",
+		"inquirer": "^6.5.0",
+		"js-yaml": "^3.13.1",
+		"ora": "^3.4.0",
+		"ttn": "^2.3.3",
+		"winston": "^3.2.1"
+	},
+	"devDependencies": {
+		"dotenv": "^8.0.0"
+	}
+}
