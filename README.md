@@ -1,6 +1,6 @@
 # RemoteSensorStation_SCEricsson
 
-#.env
+# .env
 TTN_APP_ID=vuksafeather2
 TTN_ACCESS_KEY=ttn-account-v2.YURe5xAKMF-Kg0hQV6oFonsbBbiMfWnZ9JvsBDwU7Ig
 PERIOD = 6
